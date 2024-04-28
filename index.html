@@ -3,58 +3,23 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="keywords" content="异地多活,单元化,独立开发者,资深后端,前端">
     <title>Red Chen</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
       href="https://fonts.googleapis.com/css?family=Rubik:300,500,700"
       rel="stylesheet"
     />
+    <link rel="stylesheet" type="text/css" href="/style.css">
     <style>
-      body {
-        font-family: 'Rubik', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-          Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
-          sans-serif;
-        font-size: calc(10px + 0.33vw);
-        -webkit-font-smoothing: antialiased;
-        padding: 5vh 10vw;
-        color: #121314;
-      }
-      h1 {
-        font-size: 4.5em;
-        font-weight: 500;
-        margin-bottom: 0;
-      }
-      p {
-        font-size: 1.6em;
-        font-weight: 300;
-        line-height: 1.4;
-        max-width: 28em;
-      }
-      a {
-        text-decoration: none;
-        white-space: nowrap;
-        color: #121314;
-        position: relative;
-      }
-      a:after {
-        content: '';
-        position: absolute;
-        z-index: -1;
-        top: 66%;
-        left: -0.1em;
-        right: -0.1em;
-        bottom: 0;
-        transition: top 200ms cubic-bezier(0, 0.8, 0.13, 1);
-        background-color: rgba(79, 192, 141, 0.5);
-      }
-      a:hover:after {
-        top: 0%;
-      }
     </style>
+    <script type="text/javascript">
+    </script>
   </head>
-  <body>
+  <body>    
     <h1>Hi.</h1>
-    <p style="font-weight: 500; font-size: 2.2em">My name is Red Chen.</p>
+    <p style="font-weight: 500; font-size: 2.2em">My name is 
+      <span id="myname" class="myname">Red Chen</span><span class="blink">|</span>.</p>
     <p>
       我是一名资深的后端工程师，负责一家互联网公司的单元化架构，解决单地域容灾和多地域容量问题。
       最近想把这块技术变成商业化产品，正在为之努力！
@@ -63,19 +28,29 @@
       个人常用的语言包括C++、Java、Golang和Python。
     </p>
     <p>  
-      之前N年都在公司默默地写后端代码，感觉有点孤独。最近发现自己对前端非常的感兴趣，能所见即所得。
-      而且自己一直有一个梦想是构建一个订阅的服务，大学期间就在做，但是由于在大厂上班之后，这个
-      项目就被束之高阁。因此计划最近重新学习一下日新月异的前端技术，完成这个梦想！
-      同时成为一名业余的独立开发者！
+      之前N年都在公司默默地写后端代码，感觉有点乏味。最近发现自己对前端非常的感兴趣，能所见即所得。
+      而且自己一直有一个梦想是构建一个订阅的服务，大学期间就在做，但是由于在上班之后，个人精力被耗尽，
+      这个项目就被束之高阁。因此计划最近重新学习一下日新月异的前端技术，完成这个梦想！
+      同时也让自己成长一名业余的独立开发者！
     </p>
     <p>
       后续我的项目都会上传到
       <a href="https://github.com/red-chen" target="_blank">GitHub</a>中。平时的业余时间，我会写一些教程，分享一些技术文章，或者做一些开源项目，大家可以Follow我的
-      <a href="https://twitter.com/charels_ch" target="_blank">X / Twitter</a>，关注我的动态。
+      <a href="https://twitter.com/charels_ch" target="_blank">X / Twitter</a>
+      和
+      <a href="https://okjk.co/EDS5M7" target="_blank">即刻</a>
+      ，关注我的动态。
     </p>
     <p>
       编程之外我喜欢骑摩托车，游览祖国的大好河山，梦想是参加达喀尔拉力赛！
       个人也很喜欢美食，一直在追寻舌尖上的美味，最近被粤菜迷得神魂颠倒！
     </p>
+    <div class="footer">
+      <a href="/" target="_self">首页</a>
+      <a href="/thinks.html" target="_self">随笔</a>
+      <a href="/articles.html" target="_self">文章</a>
+      <a href="https://twitter.com/charels_ch" target="_blank">X/Twitter</a>
+      <a href="https://github.com/red-chen/red-chen.github.io/issues" target="_blank">Github</a>
+    </div>
   </body>
 </html>
